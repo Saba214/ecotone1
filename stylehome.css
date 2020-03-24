@@ -1,0 +1,220 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}        
+        
+/*------------------------Navigation-------------------------*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img
+{
+    height: 100px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 20px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#nav-bar ul li a:hover{
+    color: #d5ac87!important;
+}
+.navbar{
+background: #fff;
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+color: #7f7682;
+font-weight: 100;
+font-size: 19px;
+}
+
+
+
+/*----------------------------------------------About Us----------------------------------------------*/
+#about-us
+{
+   padding-top: 50px; 
+   padding-bottom: 50px;
+   padding-top: 50px;
+   color: #5e595f;
+   font-family: 'Raleway', sans-serif;
+}
+
+.button
+{
+    box-shadow: none;
+    padding: 8px 10px;
+    size: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 0px;
+    background-color: #d5ac87;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button a:link, a:visited {
+    color: white!important;
+    text-decoration: none;
+}
+
+.button a:hover, a:active {
+    color: #7f7682!important;
+    background-color: #d5ac87;
+}
+
+.about-content
+{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    text-align: justify;
+}
+.img-fluid
+{
+    height: 200px;
+    width: 400px;
+
+}
+/*--------------------------------------Lifestyles section------------------------------------------------------*/
+#Lifestyles
+{
+   padding: 0px 0;
+   color: #5e595f;
+   font-family: 'Raleway', sans-serif;
+   
+}
+.selfcare-img
+{
+    width: 290px;
+    height: 400px;
+    margin-top: 20px;
+    padding-right: 0px;
+}
+.fashion-img
+{
+    width: 290px;
+    height: 400px;
+    margin-top: 20px;
+    padding-right: 0px;
+   
+}
+.household-img
+{
+    width: 290px;
+    height: 400px;
+    margin-top: 20px;
+    padding-right: 0px;
+
+}
+.lifestyles h4
+{
+    padding-bottom: 45px;
+    margin-top: 15px;
+      
+}
+#Lifestyles .btn-primary
+{
+   box-shadow: none;
+   padding: 8px 25px;
+   margin-top: -25px;
+   border: none;
+   border-radius: 0px;
+   background-color: #a1d182;
+   color: #5e595f;
+   cursor: pointer;
+   transition: 0.5s;
+}
+#Lifestyles .btn-primary:hover
+{
+    color: #fff;
+}
+/*-------------------------------Social media section----------------------------------------*/
+#social-media
+{
+    padding: 100px;
+}
+#social-media p
+{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #5e595f;
+}
+.social-media
+{
+    color: #d5ac87;
+}
+.social-icons img
+{
+    width: 80px;
+   transition: 0.3s; 
+
+}
+.social-icons a:hover img
+{
+   transform: translateY(-10px);
+}
+/*------------------------------------------Footer section--------------------------------------*/
+.full-width {
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: lightgray;
+}
+
+.footer-box
+{
+    margin-top: 20px;
+}
+.footer-box img
+{
+    padding-bottom: 20px;
+    margin-bottom: 20px; 
+}
+.footer-box .fa
+{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    color: #7f7682;
+}
+.btn-primary1
+{
+    margin-top: 10px;
+    background-color: #a1d182 !important;
+    background: solid;
+    border-color: #a1d182;
+    border-radius: 0%;
+    color: #fff;
+}
+.footer-box .form-control
+{
+    max-width: 300px;
+    margin-top: 25px
+}
+.copyright
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
